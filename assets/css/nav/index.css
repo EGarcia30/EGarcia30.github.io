@@ -1,0 +1,94 @@
+.container{
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all 0.6 ease-out;
+}
+
+.container::after{
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #d9d9dd;
+}
+
+/*Nav responsive*/
+.container__nav{
+    position: inherit;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*menu logo*/
+
+.menu-logo{
+    text-decoration: none;
+    color: #000000;
+}
+
+/*nav Menu*/
+.nav{
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav__links a{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin-right: 20px;
+    color: #000000;
+}
+
+.nav__links a li{
+    padding: 10px 10px 6px 10px;
+}
+
+/*Efecto underline menu*/
+.nav__links a::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    display: block;
+    background: #d9ad26;
+    transition: all 300ms ease-out;
+}
+
+.nav__links a.nav__link--active::after,
+.nav__links a:hover::after{
+    width:100%;
+}
+
+/*Boton Menu*/
+.btn-contacto{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(340deg, #d9ad26, #efb71073 100%, #f3c94ccc);
+    border: 0;
+    margin-left: 20px;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+.btn-contacto:hover{
+    box-shadow: 0px 0px 8px 1px #d9ad26;
+    cursor: pointer;
+}
