@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+    <!--ICONOS PERSONALIZADOS-->
+    <script src="https://kit.fontawesome.com/be9e926d45.js" crossorigin="anonymous"></script>
     <!--CSS PERSONALIZADO-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Erick Penado - Portafolio</title>
@@ -16,34 +18,47 @@
     <!--MENU-->
     <div class="container">
         <div class="container__nav">
-            <a href="#" class="menu-logo"><h1>< GC /></h1></a>
-            <nav class="nav">
-                <ul class="nav__links">
-                    <a href="#" class="nav__link nav__link--active">
-                        <li>
-                            Inicio
-                        </li>
-                    </a>
-                    <a href="#" class="nav__link">
-                        <li>
-                            Sobre mí
-                        </li>
-                    </a>
-                    <a href="#" class="nav__link">
-                        <li>
-                            Habilidades
-                        </li>
-                    </a>
-                    <a href="#" class="nav__link">
-                        <li>
-                            Proyectos
-                        </li>
-                    </a>
-                </ul>
-                <button class="btn-contacto">
-                    Contacto
-                </button>
-            </nav>
+            <div class="container__nav-wrap">
+                <a href="#" class="menu-logo"><h1>< GC /></h1></a>
+                <div id="btn_menu" class="container__btn">
+                    <span class="btn-menu">
+                        <i class="fas fa-bars"></i>    
+                    </span>
+                </div>
+                <div id="back_menu"></div>
+                <nav id="lt-nav" class="nav">
+                    <div id="btn_close" class="container__btn-close">
+                        <span class="btn-close">
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </div>
+                    <ul class="nav__links">
+                        <a href="#" class="nav__link nav__link--active">
+                            <li>
+                                Inicio
+                            </li>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <li>
+                                Sobre mí
+                            </li>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <li>
+                                Habilidades
+                            </li>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <li>
+                                Proyectos
+                            </li>
+                        </a>
+                    </ul>
+                    <button class="btn-contacto">
+                        Contacto
+                    </button>
+                </nav>
+            </div>
         </div>
     </div>
     <!--HEADER-->
@@ -64,5 +79,7 @@
             </div>
         </div>
     </header>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
