@@ -118,9 +118,10 @@
         padding: 5px 10px;
     }
 
+    /*BTN MENU CLOSE*/
     .container__btn-close{
         display: block;
-        margin: 10px 0;
+        margin: 10px 0px 10px 140px;
         padding: 20px 20px;
     }
 
@@ -137,6 +138,7 @@
         cursor: pointer;
     }
 
+    /*FONDO OSCURO PARA EL DESPLIEGUE MENU*/
     #back_menu{
         position: fixed;
         top: 0;
@@ -148,6 +150,7 @@
         z-index: 1;
     }
 
+    /*OCULTAR MENU*/
     .nav{
         position: fixed;
         top: 0;
@@ -155,26 +158,30 @@
         width: 250px;
         height: 100vh;
         flex-direction: column;
+        align-items: center;
         background: #ffffff;
         z-index: 1;
         transition: all 0.5s ease-out;
     }
 
+    /*DESPLEGAR MENU*/
     .nav-toggle{
         right:0;
     }
 
+    /*ADAPTANDO ELEMENTOS DEL NAV AL RESPONSIVE*/
     .nav__links{
         flex-direction: column;
         align-items: center;
         margin: 20px 0;
     }
 
-    .nav__link{
+    .nav__links a{
         padding: 20px 0;
+        margin: 0;
     }
 
     .btn-contacto{
-        margin: 0 0 0 65px;
+        margin: 0;
     }
 }

@@ -1,12 +1,12 @@
 /*HEADER*/
 .header{
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 80%;
+    height: 750px;
 }
 
 .wrap{
-    position: relative;
+    position: inherit;
     max-width: 1250px;
     height: 100%;
     margin: 0 auto;
@@ -14,7 +14,7 @@
 }
 
 .container__header{
-    position: inherit;
+    position: relative;
     top: calc(50% - 40%);
     display: flex;
     justify-content: space-around;
