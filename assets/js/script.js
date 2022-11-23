@@ -3,6 +3,7 @@ const ltMenu = document.getElementById('lt-nav');
 const btnClose = document.getElementById('btn_close');
 const bgMenu = document.getElementById('back_menu');
 document.getElementById('back_menu').addEventListener('click', ocultar);
+document.getElementById('lt-nav').addEventListener('click', ocultar)
 
 function ocultar(){
     ltMenu.classList.remove('nav-toggle')
