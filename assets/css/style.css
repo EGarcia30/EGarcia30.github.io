@@ -1,6 +1,7 @@
 @import url('nav/index.css');
 @import url('header/index.css');
 @import url('section_me/index.css');
+@import url('footer/index.css');
 
 *{
     padding: 0;
