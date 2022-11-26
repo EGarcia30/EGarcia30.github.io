@@ -24,13 +24,37 @@
     padding: 0 0 0 1.25em;
 }
 
-@media screen and(max-width:800px) {
+.st__titles-flex h1{
+    font-size: 3.5em;
+    line-height: 2.8rem;
+}
 
+.st__titles-flex h1::after{
+    content: '';
+    height: 3px;
+    width: 2em;
+    display: block;
+    background: #d9ad26;
+}
+
+.st__titles-flex p{
+    font-size: 1.2em;
+    padding: 1.25rem 0 0 0;
+}
+
+@media screen and (max-width:800px) {
     .st__titles-flex{
-        padding: 0 !important;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .st__titles-flex h1{
+        font-size: 2.5em;
     }
 
-    .st__container-flex--wrap{
-        justify-content: flex-start !important;
+    .st__titles-flex p{
+        font-size: 0.8em;
+        padding: 1.25rem 0 0 0;
     }
 }
