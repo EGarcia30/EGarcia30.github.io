@@ -16,110 +16,80 @@
 </head>
 <body>
     <!--MENU-->
-    <div class="container">
+    <div id="inicio" class="container">
         <div class="container__nav">
             <div class="container__nav-wrap">
-                <a href="#" class="menu-logo"><h1>< GC /></h1></a>
-                <div id="btn_menu" class="container__btn">
-                    <span class="btn-menu">
-                        <i class="fas fa-bars"></i>    
+                <a href="#" class="logo"><h1> < GC /> </h1></a>
+                <div id="btn-menu" class="menu">
+                    <span class="icon icon-menu">
+                        <i class="fas fa-bars"></i>
                     </span>
                 </div>
                 <div id="back_menu"></div>
-                <nav id="lt-nav" class="nav">
-                    <div id="btn_close" class="container__btn-close">
-                        <span class="btn-close">
+                <nav id="nav" class="nav">
+                    <div id="btn-close" class="close">
+                        <span class="icon icon-close">
                             <i class="fas fa-times"></i>
                         </span>
                     </div>
                     <ul class="nav__links">
-                        <a href="#" class="nav__link nav__link--active">
-                            <li>
-                                Inicio
-                            </li>
-                        </a>
-                        <a href="#sobre-mi" class="nav__link">
-                            <li>
-                                Sobre mí
-                            </li>
-                        </a>
-                        <a href="#habilidades" class="nav__link">
-                            <li>
-                                Habilidades
-                            </li>
-                        </a>
-                        <a href="#proyectos" class="nav__link">
-                            <li>
-                                Proyectos
-                            </li>
-                        </a>
+                        <li class="nav__item">
+                            <a href="#inicio" class="nav__link nav__link--active">Inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#sobre-mi" class="nav__link">Sobre mi</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Habilidades</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Proyectos</a>
+                        </li>
                     </ul>
-                    <button class="btn-contacto">
-                        Contacto
-                    </button>
                 </nav>
             </div>
         </div>
     </div>
-    <!--HEADER-->
-    <header class="header">
-        <div class="wrap">
-            <div class="container__header">
-                <div class="container__titles">
-                    <h1>ERICK PENADO</h1>
-                    <h2>DESARROLLADOR FULLSTACK</h2>
-                    <p>
-                        Estudiante Tecnico en Ingeniera de software <br/>
-                        Con amplio conocimiento en el <b>desarrollo web.</b>
-                    </p>
-                </div>
-                <div class="container__img">
-                    <img src="./assets/img/profile.svg" alt="profile" class="profile-logo">
-                </div>
-            </div>
-        </div>
-    </header>
-    <section id="sobre-mi" class="section">
-        <div class="wrap">
-            <div class="container__section">
-                <div class="container__img">
-                    <img src="./assets/img/pic.svg" alt="pic" class="profile-logo">
-                </div>
-                <div class="container__titles">
-                    <h1>SOBRE MI</h1>
-                    <p>Apasionado de la programación tanto del lado del cliente y servidor, estudiante de ultimo año, en desarrollo de su tesis para culminar sus estudios, en busca de su primer trabajo como <b>desarrollador web.</b></p>
-                </div>
 
-            </div>
-        </div>
-    </section>
-    <section id="habilidades" class="section">
-        <div class="wrap">
-            <div class="container__section">
-                <div class="container__titles">
-                    <h1>HABILIDADES</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="proyectos" class="section">
-        <div class="wrap">
-            <div class="container__section">
-                <div class="container__section">
-                    <div class="container__titles">
-                        <h1>PROYECTOS</h1>
+    <main>
+        <!--HEADER-->
+        <header class="hero">
+            <div class="st__container">
+                <div class="st__container-flex">                
+                    <div class="st__titles">
+                        <h1>Erick Penado</h1>
+                        <h2>Desarrollador fullstack</h2>
+                        <p>
+                            Tecnico en ingenieria de Software, <br/>
+                            con amplio conocimiento en el <b>Desarrollo web.</b>
+                        </p>
+                        <button class="btn">
+                            Contacto
+                        </button>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="wrap">
-            <div class="container__section">
-                <p>Creado por <b>Erick Penado</b> - Todos los derechos Reservados.</p>
+        </header>
+        <!--SOBRE MI-->
+        <section id="sobre-mi" class="st">
+            <div class="st__container">
+                <div class="st__container-flex st__container-flex--wrap">
+                    <div class="st-img">
+                        <img src="./assets/img/fotoCV.PNG" alt="fotoCV" class="img-profile">
+                    </div>
+                    <div class="st__titles st__titles-flex">
+                        <h1>¿Sobre mi?</h1>
+                        <p>
+                            Estudiante de ultimo año, en proceso de tesis para culminar sus estudios, <b>apasionado</b> por la programación tanto del lado del servidor como del cliente, <b>autodidacta</b> y <b>entusiasta</b>.
+                        </p>
+                        <button class="btn">
+                            Descargar CV
+                        </button>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+        </section>
+    </main>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

@@ -1,9 +1,9 @@
-const btnMenu = document.getElementById('btn_menu');
-const ltMenu = document.getElementById('lt-nav');
-const btnClose = document.getElementById('btn_close');
+const btnMenu = document.getElementById('btn-menu');
+const ltMenu = document.getElementById('nav');
+const btnClose = document.getElementById('btn-close');
 const bgMenu = document.getElementById('back_menu');
 document.getElementById('back_menu').addEventListener('click', ocultar);
-document.getElementById('lt-nav').addEventListener('click', ocultar)
+document.getElementById('nav').addEventListener('click', ocultar)
 
 function ocultar(){
     ltMenu.classList.remove('nav-toggle')

@@ -1,41 +1,64 @@
 /*HEADER*/
-.header{
-    position: relative;
+.hero{
     width: 100%;
-    height: 750px;
+    padding: 12em 0;
 }
 
-.wrap{
-    position: inherit;
-    max-width: 1250px;
-    height: 100%;
+.st__container{
+    max-width: 62.5em;
     margin: 0 auto;
-    padding: 50px;
+    padding: 0 2.5em;
 }
 
-.container__header{
-    position: relative;
-    top: calc(50% - 40%);
+.st__container-flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    text-align: start;
+    text-transform: uppercase;
 }
 
-/*Imagen del header*/
-.container__img{
-    max-width: 500px;
-    padding: 20px 0;
+/*Tamaño del texto*/
+
+.st__titles h1{
+    font-size: 5em;
+    line-height: 5rem;
 }
 
-.profile-logo{
-    width: 100%;
-    object-fit: cover;
-}
-
-/*Header titulos*/
-
-.container__titles h2,
-.container__titles p b{
+.st__titles h2{
+    font-size: 3em;
     color: #d9ad26;
+    line-height: 3rem;
+}
+
+.st__titles p{
+    font-size: 1.5em;
+}
+
+.st__titles p b{
+    color: #d9ad26;
+}
+
+/*BTN CONTACTO DEL HEADER*/
+
+.btn{
+    margin: 1.2rem 0 0 0;
+    padding: 0.63rem 1.2rem;
+    font-size: 1.2em;
+    color: #000000;
+    background: #d9ad26;
+    border: 2px solid #d9ad26;
+    border-radius: 0.3em;
+    transform: scale(1);
+    transition: transform 100ms ease;
+    transition: background 500ms ease-out;
+}
+
+.btn:hover{
+    background: #d9ac26c0;
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(0.9);
 }
