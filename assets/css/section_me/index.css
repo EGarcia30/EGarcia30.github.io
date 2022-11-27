@@ -3,6 +3,10 @@
     padding: 11em 0;
 }
 
+.st__bg{
+    background: linear-gradient(95deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.045));
+}
+
 /*IMG PERFIL*/
 .st-img{
     max-width: 37.5em;
@@ -38,23 +42,41 @@
 }
 
 .st__titles-flex p{
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 1.25rem 0 0 0;
+    max-width: 30rem;
 }
 
-@media screen and (max-width:800px) {
-    .st__titles-flex{
-        padding: 0;
+@media screen and (max-width:821px) {
+    .btn-cv{
+        font-size: 1em;
+    }
+
+    .st__titles-flex p{
+        max-width: 25rem;
     }
 }
 
 @media screen and (max-width:576px) {
+
     .st__titles-flex h1{
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .st__titles-flex p{
         font-size: 0.8em;
-        padding: 1.25rem 0 0 0;
+        max-width: 15rem;
     }
+
+    .btn-cv{
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width:486px) {  
+    
+    .st__titles-flex p{
+        padding: 0;
+    }
+
 }

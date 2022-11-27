@@ -1,7 +1,7 @@
 /*HEADER*/
 .hero{
     width: 100%;
-    padding: 12em 0;
+    padding: 8em 0 12em 0;
 }
 
 .st__container{
@@ -16,6 +16,10 @@
     align-items: center;
     text-align: start;
     text-transform: uppercase;
+}
+
+.st__container-flex-start{
+    justify-content: flex-start;
 }
 
 /*Tamaño del texto*/
@@ -33,6 +37,7 @@
 
 .st__titles p{
     font-size: 1.5em;
+    text-transform: capitalize;
 }
 
 .st__titles p b{
@@ -81,12 +86,13 @@
 }
 
 @media screen and (max-width:576px){
+
     .st__titles h1{
         font-size: 2.5em;
     }
-
     .st__titles h2{
         font-size: 1.5em;
+        line-height: 1.6rem;
     }
 
     .st__titles p{
