@@ -1,0 +1,22 @@
+.st__grip-galery{
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%,25em), 1fr));
+}
+
+.img-proyectos{
+    width: 100%;
+    object-fit: cover;
+}
+
+.st__list-img{
+    padding: 2em;
+    text-align: center;
+}
+
+.st__item-hover{
+    transform: scale(1);
+}
+
+.st__item-hover:hover{
+    transform: scale(1);
+}
