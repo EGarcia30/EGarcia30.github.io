@@ -1,7 +1,8 @@
 /*HEADER*/
 .hero{
     width: 100%;
-    padding: 8em 0 12em 0;
+    padding: 14em 0 12em 0;
+    animation: header 2.5s ease-in-out;
 }
 
 .st__container{
@@ -101,5 +102,15 @@
 
     .btn{
         font-size: 0.8em;
+    }
+}
+
+@keyframes header{
+    from{
+        clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
+        opacity: 0.2;
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 }

@@ -16,3 +16,20 @@ btnMenu.addEventListener('click', () =>{
 });
 
 btnClose.addEventListener('click', ocultar);
+
+//EFECTOS SCROLL
+const efectoSlideDown = document.getElementById('slideDown');
+
+const sobreMi = () =>{
+    console.log(scrollY);
+    if(scrollY > 300){
+        efectoSlideDown.classList.add('st__translate-end');
+        efectoSlideDown.classList.remove('st__translate-start');
+    }
+    else{
+        efectoSlideDown.classList.remove('st__translate-end');
+        efectoSlideDown.classList.add('st__translate-start')
+    }
+}
+
+window.addEventListener('scroll', sobreMi)
