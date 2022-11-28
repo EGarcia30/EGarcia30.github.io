@@ -1,6 +1,7 @@
 @import url('nav/index.css');
 @import url('header/index.css');
-@import url('section_me/index.css');
+@import url('sections/index.css');
+@import url('sections/habilidades.css');
 @import url('footer/index.css');
 
 *{
@@ -25,15 +26,15 @@ h2{
     font-family: 'Bebas Neue', cursive;
 }
 
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
 a{
     font-family: 'Bebas Neue', cursive;
 }
 
 button{
-    font-family: 'Montserrat', sans-serif;
-}
-
-h3{
     font-family: 'Montserrat', sans-serif;
 }
 

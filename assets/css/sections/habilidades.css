@@ -1,0 +1,42 @@
+.st__habilidades{
+    width: 100%;
+    text-align: center;
+    padding: 2em 0 0 0;
+    display: grid;
+    grid-auto-rows: 22em;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%,15em), 1fr));
+    gap: 2em;
+}
+
+.st__item-grip{
+    width: 100%;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.2);
+    transform: scale(1);
+}
+
+.st__item-grip:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: scale(1.1);
+}
+
+.st__item-grip h3{
+    font-size: 1em;
+    padding: 1rem 0;
+}
+
+.st-list{
+    width: 60%;
+    margin: auto;
+    padding: 1.5em 0 0 0;
+    text-align: start;
+    text-transform: none;
+}
+
+.st-list ul li{
+    color: #d9ad26;
+    line-height: 1.8em;
+}
+
+.st-list ul li p{
+    color: #000000;
+}

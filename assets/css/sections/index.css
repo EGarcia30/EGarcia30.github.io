@@ -1,3 +1,4 @@
+/*Contenedores principales*/
 .st{
     width: 100%;
     padding: 11em 0;
@@ -13,6 +14,7 @@
 
 }
 
+/*efecto slideDown*/
 .st__translate-end{
     transform: translateY(0);
     transition: all 2s ease-out;
@@ -20,8 +22,8 @@
 
 .st__translate-start{
     transform: translateY(30px);
-    opacity: 0.2;
-    transition: all 2s ease-out;
+    opacity: 0.1;
+    transition: all 500ms ease-out;
 }
 /*IMG PERFIL*/
 .st-img{
@@ -42,6 +44,15 @@
 .st__titles-flex{
     max-width: 37.5em;
     padding: 0 0 0 1.25em;
+}
+
+/*hacer columnas*/
+.st__columns{
+    flex-direction: column;
+}
+/*quitar padding horizontales*/
+.st__p-0{
+    padding: 0 0 2em 0;
 }
 
 .st__titles-flex h1{
