@@ -58,6 +58,7 @@
 .nav__item{
     margin: 0 0.93em 0 0;
     list-style: none;
+    animation: nav 1s ease-out forwards;
 }
 
 .nav__link{
@@ -89,6 +90,7 @@
 .logo h1{
     color: #000000;
     font-size: 2.8em;
+    animation: nav 1s ease-out forwards ;
 }
 
 @media screen and (max-width:720px){
@@ -99,6 +101,7 @@
     .menu{
         display: block;
         cursor: pointer;
+        animation: nav 1s ease-out forwards ;
     }
 
     .close{
@@ -154,5 +157,18 @@
         background: rgba(0,0,0,0.5);
         display: none;
         z-index: 1;
+    }
+}
+
+/*Animaciones*/
+
+@keyframes nav{
+    from{
+        transform: translateX(-30px);
+        opacity: 0.2;
+    }
+    to{
+        transform: translateX(0);
+        
     }
 }
