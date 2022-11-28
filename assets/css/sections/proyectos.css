@@ -21,3 +21,18 @@
 .st__item-hover:hover{
     transform: scale(1);
 }
+
+@media screen and (max-width:568px) {
+    
+    .img-proyectos{
+        height: 70%;
+    }
+
+    .st__list-img{
+        padding: 0.8em;
+    }
+
+    .st__list-img p{
+        font-size: 0.7em;
+    }
+}
