@@ -21,7 +21,6 @@ btnClose.addEventListener('click', ocultar);
 const efectoSlideDown = document.getElementById('slideDown');
 
 const sobreMi = () =>{
-    console.log(scrollY);
     if(scrollY > 300){
         efectoSlideDown.classList.add('st__translate-end');
         efectoSlideDown.classList.remove('st__translate-start');
@@ -33,3 +32,13 @@ const sobreMi = () =>{
 }
 
 window.addEventListener('scroll', sobreMi)
+
+/*Active*/
+const linkItems = document.querySelectorAll('.nav__link');
+
+linkItems.forEach((linkItem, index) => {
+    linkItem.addEventListener('click', () => {
+        document.querySelector('.nav__link--active').classList.remove('nav__link--active');
+        linkItem.classList.add('nav__link--active');
+    })
+})
