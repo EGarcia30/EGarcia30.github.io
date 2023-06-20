@@ -33,7 +33,7 @@ export default {
 			},
 			gridTemplateColumns: {
 				// Simple 16 column grid
-				auto: 'repeat(auto-fill, minmax(15rem, 1fr))',
+				auto: 'repeat(auto-fill, minmax(10rem, 1fr))',
 			}
 		},
 		plugins: [],

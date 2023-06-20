@@ -6,7 +6,7 @@ function Habilidades() {
     return (
         <div id='habilidades' className="max-w-[1040px] mx-auto p-4 py-16 text-black/80 dark:text-white/80">
             <h1 className="md:text-4xl text-2xl font-bold text-center font-beba-neue my-10">Habilidades</h1>
-            <div className="grid grid-cols-auto place-items-center gap-8">
+            <div className="grid md:grid-cols-3 grid-cols-auto place-items-center gap-8">
                 <SiMariadb size={40} className="text-"/>
                 <SiMicrosoftsqlserver size={40} className="text-red-600"/>
                 <BsFillBootstrapFill size={40} className="text-violet-600"/>
