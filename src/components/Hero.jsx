@@ -2,7 +2,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { BsCodeSlash,BsFillBootstrapFill } from "react-icons/bs";
 import { DiJavascript1, DiReact, DiPhp } from "react-icons/di";
 import { SiTailwindcss, SiLaravel, SiMariadb } from "react-icons/si";
-import { FaInstagram, FaFacebook, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp, FaGithub } from "react-icons/fa";
 
 function Hero() {
     return (
@@ -28,9 +28,15 @@ function Hero() {
                     />
                     </h2>
                     <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                        <FaFacebook className='cursor-pointer' size={20}/>
-                        <FaGithub className='cursor-pointer' size={20}/>
-                        <FaInstagram className='cursor-pointer' size={20}/>
+                        <a href="https://github.com/EGarcia30">
+                            <FaGithub className='cursor-pointer' size={20}/>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=71113846">
+                            <FaWhatsapp className='cursor-pointer' size={20} />
+                        </a>
+                        <a href="https://www.instagram.com/erick.garcia8/">
+                            <FaInstagram className='cursor-pointer' size={20}/>
+                        </a>
 
                     </div>
                 </div>
