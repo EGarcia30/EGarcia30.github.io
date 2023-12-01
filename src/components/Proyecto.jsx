@@ -11,10 +11,10 @@ function Proyecto() {
         <div id='proyecto' className="max-w-[1040px] mx-auto p-4 py-16 text-black/80 dark:text-white/80">
             <h1 className="md:text-4xl text-2xl font-bold text-center font-beba-neue my-10">Proyectos</h1>
             <div className="grid sm:grid-cols-2 gap-12">
-                <ProyectoCard img={bibliotecaImg} titulo='Cafe y Biblioteca virtual' link='https://github.com/EGarcia30/biblioteca'/>
+                <ProyectoCard img={bibliotecaImg} titulo='Cafe y Biblioteca virtual' link='https://github.com/EGarcia30/biblioteca' web='https://vastyscoffee.bsite.net/'/>
                 <ProyectoCard img={ventaImg} titulo='Control de venta' link='https://github.com/EGarcia30/WfcontrolVentas'/>
                 <ProyectoCard img={portafolioImg} titulo='Portafolio' link='https://github.com/EGarcia30/EGarcia30.github.io'/>
-                <ProyectoCard img={sistemaImg} titulo='Sistema de diseño curricular' link='https://github.com/EGarcia30/tesis'/>
+                <ProyectoCard img={sistemaImg} titulo='Sistema de diseño curricular' link='https://github.com/EGarcia30/tesis' web='http://proyectosfica.utec.edu.sv/Tecnicos/sdc/'/>
                 <ProyectoCard img={portalImg} titulo='Portal educativo' link='https://github.com/EGarcia30/portal-educativo'/>
                 <ProyectoCard img={veterinariaImg} titulo='Veterinaria' link='https://github.com/EGarcia30/veterinaria'/>
             </div>
